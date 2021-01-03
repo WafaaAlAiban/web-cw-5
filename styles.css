@@ -20,3 +20,16 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.wrapper{
+  direction: rtl;
+  width: 200;
+  height:250 ;
+  padding:5px ;
+  border-radius: 20px;
+  background-color: rgb(176, 190, 236);
+}
+
+.data{
+  direction: center;
+}

@@ -36,15 +36,18 @@
     -->
 
     <!-- ابدأ الحل ↓↓↓ -->
+    <script src="./Grade.js"></script>
     <div class="wrapper">
       <h1>الحاسبة 🔢</h1>
 
       <div class="directions">أدخل درجاتك، كل درجة في الحقل الخاص بها</div>
 
-      <input id="Quizes" type="text" />
-      <input id="Midterm" type="text" />
-      <input id="FinalTest" type="text" />
-      <input id="Oral" type="text" />
+      <input class="data" id="Quizes" type="text" placeholder="Quizes"/>
+      <input class="data" id="Midterm" type="text" placeholder="Midterm"/>
+      <input class="data" id="FinalTest" type="text" placeholder="Final Test"/>
+      <input class="data" id="Oral" type="text" placeholder="Oral"/>
+      <br>
+      <br>
 
       <input
         id="submitButton"
@@ -53,11 +56,12 @@
         onClick="submit()"
       />
 
-      <p>مجموع درجاتك (بالأرقام) هو</p>
+      <p>:مجموع درجاتك (بالأرقام) هو</p>
       <div id="total_grades"></div>
 
-      <p>درجتك النهائية هي (بالأحرف)</p>
+      <p>:درجتك النهائية هي (بالأحرف)</p>
       <div id="final_grade"></div>
     </div>
+    
   </body>
 </html>
